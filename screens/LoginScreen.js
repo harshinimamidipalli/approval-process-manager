@@ -40,7 +40,7 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
+      <Text style={styles.title}>Hey! </Text>
 
       <TextInput
         style={styles.input}
