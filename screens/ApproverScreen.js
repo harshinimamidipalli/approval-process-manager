@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, StyleSheet, FlatList } from "react-native";
-import { supabase } from "../../supabase";
+import { supabase } from "../supabase";
 
 export default function ApproverScreen({ navigation }) {
   const [requests, setRequests] = useState([]);

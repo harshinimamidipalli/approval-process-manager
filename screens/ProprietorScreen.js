@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from "react-native";
-import { supabase } from "../../supabase";
+import { supabase } from "../supabase";
 
 export default function ProprietorScreen() {
   const [requests, setRequests] = useState([]);
